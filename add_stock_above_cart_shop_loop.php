@@ -1,3 +1,4 @@
+<?php
 /**
  * @code-snippet     Add stock info above Add to cart on Shop page @ WooCommerce
  * @author           JKP.Agency Jacek Poleszak
@@ -16,3 +17,4 @@ function jkpagency_show_stock_shop_loop_item() {
         echo '<p>Stock: ' . $stock . '</p>';
     }
 }
+?>
