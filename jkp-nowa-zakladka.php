@@ -1,3 +1,4 @@
+<?php
 /**
  * @kod             Dodaje zakładkę Dokumentacja do pojedynczego produktu @ WooCommerce
  * @autor           Jacek Poleszak
@@ -20,3 +21,4 @@ function jkpagency_dodaj_zakl_dok_do_produktow( $tabs ) {
 function zakl_dok_zawartosc() {
   echo 'Tu umieść zawartość zakładki z Dokumentacją.';
 }
+?>
