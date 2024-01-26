@@ -13,15 +13,16 @@ WooCommerce Resources Library
 
 ```php
 do_action( 'hook_name', 'function_name', 10, 1 );
-
-function function_name() {
-  // 
-}
 ```
 - The code above goes into the `functions.php` flile of the *child theme*.
 - It has the same name as per `do_action()`.
 - **Priority** = `10` by default, if omitted.
-- **Arguments** = `1` by default, if omitted.
+- **Aarguments** = `1` by default, if omitted.
+```php
+function function_name() { }
+```
+- Hooked function (name as per `add_action()`).
+- **`$arguments`** as per `do_action()`.
 
 ### Examples
 
