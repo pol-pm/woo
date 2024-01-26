@@ -55,6 +55,7 @@ function my_above_cart_banner_function() {
 * [WooCommerce source](https://github.com/woocommerce/woocommerce/tree/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce)
 * [WordPress Developer Resources](https://developer.wordpress.org/reference/)
 * [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
+* [Child Themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
 * [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
   *  [Actions](https://developer.wordpress.org/plugins/hooks/actions/)
   *  [Filters](https://developer.wordpress.org/plugins/hooks/filters/)
@@ -82,3 +83,4 @@ function my_above_cart_banner_function() {
 ### Useful plugins
 - [WooCommerce HookMeUp](https://wordpress.org/plugins/hookmeup/)
 - [WP Hooks Finder](https://wordpress.org/plugins/wp-hooks-finder/)
+- [Customizer Export/Import](https://wordpress.org/plugins/customizer-export-import/)
