@@ -4,8 +4,9 @@ WooCommerce Resources Library
 ## Notes
 
 ### WooCommerce Customization
+
+> Do not edit Woo Pages directly (to avoid deleting Woo shortcodes), use hooks instead.
 - If I see `do_action()` it means that I can run my custom function there, in that specific postition, WITHOUT a need of overriding a WooCommerce template.
-- Do not edit Woo Pages directly (to avoid deleting Woo shortcodes), use hooks instead.
 - Full list of shortcodes available in `includes/class-wc-shortcodes.php` file.
 - I can include full product page on my custom page with a shortcode `[product_page id="1"]`.
 
