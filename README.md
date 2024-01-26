@@ -1,5 +1,5 @@
 # woo
-WooCommerce code snippets
+WooCommerce Resources Library
 
 ## Notes
 
