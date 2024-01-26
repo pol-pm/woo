@@ -27,9 +27,9 @@ function function_name() { }
 - Wordpress **Filter Hooks** allow me to *edit / filter* content just before it is given back to WordPress.
 - If WP/Woo provides me with a `apply_filters( 'hook_name' )` I can edit that content before it is processed.
 
-... add more content here ...
-
-Add content child theme related from my screenshots.
+* ... add more content here ...
+* Add content child theme related from my screenshots.
+* check and validate child theme styles with a different name/folder
 
 
 ### Examples
