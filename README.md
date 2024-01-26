@@ -3,7 +3,10 @@ WooCommerce Resources Library
 
 ## Notes
 
-- If I see *do_action()* it means that I can run my custom function there, in that specific postition, WITHOUT a need of overriding a WooCommerce template.
+### WooCommerce Customization
+- If I see `do_action()` it means that I can run my custom function there, in that specific postition, WITHOUT a need of overriding a WooCommerce template.
+- Do not edit Woo Pages directly (to avoid deleting Woo shortcodes), use hooks instead.
+- Full list of shortcodes available in `includes/class-wc-shortcodes.php` file.
 
 ## Resources
 
@@ -13,8 +16,9 @@ WooCommerce Resources Library
 - [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
 - [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
 - [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
-- [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
 - [WooCommerce Pages](https://woo.com/document/woocommerce-pages/)
+- [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
+- [Full list of Woo shortcodes](https://github.com/woocommerce/woocommerce/blob/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce/includes/class-wc-shortcodes.php#L3)
 
 ### [Woo Visual Hook Guides](https://www.businessbloomer.com/category/woocommerce-tips/visual-hook-series/)
 
