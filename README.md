@@ -26,7 +26,7 @@ function function_name() { }
 
 - Wordpress **Filter Hooks** allow me to *edit / filter* content just before it is given back to WordPress.
 - If WP/Woo provides me with a `apply_filters( 'hook_name' )` I can edit that content before it is processed.
-  
+
 
 ### Examples
 
@@ -48,15 +48,17 @@ function my_above_cart_banner_function() {
 ## Resources
 
 ### Useful resources:
-- [WooCommerce source](https://github.com/woocommerce/woocommerce/tree/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce)
-- [WordPress Developer Resources](https://developer.wordpress.org/reference/)
-- [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
-- [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
-- [WooCommerce Hooks: Actions and filters](https://woo.com/document/introduction-to-hooks-actions-and-filters/)
-- [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
-- [WooCommerce Pages](https://woo.com/document/woocommerce-pages/)
-- [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
-- [Full list of Woo shortcodes](https://github.com/woocommerce/woocommerce/blob/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce/includes/class-wc-shortcodes.php#L3)
+* [WooCommerce source](https://github.com/woocommerce/woocommerce/tree/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce)
+* [WordPress Developer Resources](https://developer.wordpress.org/reference/)
+* [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
+* [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
+  *  [Actions](https://developer.wordpress.org/plugins/hooks/actions/)
+  *  [Filters](https://developer.wordpress.org/plugins/hooks/filters/)
+* [WooCommerce Hooks: Actions and filters](https://woo.com/document/introduction-to-hooks-actions-and-filters/)
+* [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
+* [WooCommerce Pages](https://woo.com/document/woocommerce-pages/)
+* [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
+* [Full list of Woo shortcodes](https://github.com/woocommerce/woocommerce/blob/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce/includes/class-wc-shortcodes.php#L3)
 
 ### [Woo Visual Hook Guides](https://www.businessbloomer.com/category/woocommerce-tips/visual-hook-series/)
 
