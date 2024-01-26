@@ -20,6 +20,14 @@ function my_custom_function() {
   // do something when a product (post) is saved
 }
 ```
+```php
+do_action( 'woocommerce_before_cart', 'my_above_cart_banner_function' );
+
+function my_above_cart_banner_function() {
+  // do something before the Cart table
+}
+```
+
 
 ## Resources
 
