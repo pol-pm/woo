@@ -35,8 +35,9 @@ function my_above_cart_banner_function() {
 - [WooCommerce source](https://github.com/woocommerce/woocommerce/tree/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce)
 - [WordPress Developer Resources](https://developer.wordpress.org/reference/)
 - [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
-- [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
 - [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
+- [WooCommerce Hooks: Actions and filters](https://woo.com/document/introduction-to-hooks-actions-and-filters/)
+- [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
 - [WooCommerce Pages](https://woo.com/document/woocommerce-pages/)
 - [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
 - [Full list of Woo shortcodes](https://github.com/woocommerce/woocommerce/blob/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce/includes/class-wc-shortcodes.php#L3)
@@ -52,6 +53,9 @@ function my_above_cart_banner_function() {
 
 ### Other resources:
 - [WordPress Developer Blog](https://developer.wordpress.org/news/)
+
+### Explore later
+- [How to add a custom field to simple and variable products](https://developer.woo.com/docs/how-to-add-a-custom-field-to-simple-and-variable-products/#5-how-to-handle-variable-products-)
 
 ### Useful plugins
 - [WooCommerce HookMeUp](https://wordpress.org/plugins/hookmeup/)
