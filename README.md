@@ -9,6 +9,17 @@ WooCommerce Resources Library
 - If I see `do_action()` it means that I can run my custom function there, in that specific postition, WITHOUT a need of overriding a WooCommerce template.
 - Full list of shortcodes available in `includes/class-wc-shortcodes.php` file.
 - I can include full product page on my custom page with a shortcode `[product_page id="1"]`.
+- If WP/Woo privdes me with a hook `do_action()` it means that I can run a custom function then/there.
+
+### Examples
+
+```php
+do_action( 'save_post_product', 'my_custom_function' );
+
+function my_custom_function() {
+  // do something when a product (post) is saved
+}
+```
 
 ## Resources
 
