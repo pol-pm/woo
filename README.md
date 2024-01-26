@@ -11,6 +11,18 @@ WooCommerce Resources Library
 - I can include full product page on my custom page with a shortcode `[product_page id="1"]`.
 - If WP/Woo privdes me with a hook `do_action()` it means that I can run a custom function then/there.
 
+```php
+do_action( 'hook_name', 'function_name', 10, 1 );
+
+function function_name() {
+  // 
+}
+```
+- The code above goes into the `functions.php` flile of the *child theme*.
+- It has the same name as per `do_action()`.
+- **Priority** = `10` by default, if omitted.
+- **Arguments** = `1` by default, if omitted.
+
 ### Examples
 
 ```php
