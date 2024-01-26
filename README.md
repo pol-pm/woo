@@ -1,6 +1,10 @@
 # woo
 WooCommerce code snippets
 
+## Notes
+
+- If I see *do_action()* it means that I can run my custom function there, in that specific postition, WITHOUT a need of overriding a WooCommerce template.
+
 ## Resources
 
 ### Useful resources:
