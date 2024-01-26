@@ -13,6 +13,8 @@ WooCommerce Resources Library
 - [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
 - [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
 - [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
+- [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
+- [WooCommerce Pages](https://woo.com/document/woocommerce-pages/)
 
 ### [Woo Visual Hook Guides](https://www.businessbloomer.com/category/woocommerce-tips/visual-hook-series/)
 
