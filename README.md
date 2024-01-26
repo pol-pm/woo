@@ -24,6 +24,10 @@ function function_name() { }
 - Hooked function (name as per `add_action()`).
 - **`$arguments`** as per `do_action()`.
 
+- Wordpress **Filter Hooks** allow me to *edit / filter* content just before it is given back to WordPress.
+- If WP/Woo provides me with a `apply_filters( 'hook_name' )` I can edit that content before it is processed.
+  
+
 ### Examples
 
 ```php
@@ -40,7 +44,6 @@ function my_above_cart_banner_function() {
   // do something before the Cart table
 }
 ```
-
 
 ## Resources
 
