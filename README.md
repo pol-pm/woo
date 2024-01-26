@@ -37,7 +37,7 @@ function function_name() { }
 * add inspecting explaination
 * CSS hierarchy, add precision in location (why one should never use 1 & 2)
 * explain woocommerce CSS structure 
-
+* [WooCommerce CSS Structure](https://developer.woo.com/docs/classic-theme-development-handbook/#3-css-structure)
 
 ### Examples
 
@@ -63,6 +63,7 @@ function my_above_cart_banner_function() {
 * [WordPress Developer Resources](https://developer.wordpress.org/reference/)
 * [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
 * [Child Themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+* [WooCommerce CSS Structure](https://developer.woo.com/docs/classic-theme-development-handbook/#3-css-structure)
 * [How to set up and use a child theme](https://developer.woo.com/docs/how-to-set-up-and-use-a-child-theme/)
 * [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
   *  [Actions](https://developer.wordpress.org/plugins/hooks/actions/)
