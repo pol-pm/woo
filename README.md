@@ -1,95 +1,45 @@
-# woo
-WooCommerce Resources Library
+# `Woo`Commerce Resources Library by Jacek Poleszak
 
-## Notes
+Welcome to the `Woo`Commerce Resources Library, a comprehensive and evolving collection of knowledge and tools curated by Jacek Poleszak. This repository aims to serve as an essential guide for developers, designers, and eCommerce enthusiasts diving into the world of WooCommerce.
 
-### WooCommerce Customization
+## Introduction
 
-> Do not edit Woo Pages directly (to avoid deleting Woo shortcodes), use hooks instead.
-- If I see `do_action()` it means that I can run my custom function there, in that specific postition, WITHOUT a need of overriding a WooCommerce template.
-- Full list of shortcodes available in `includes/class-wc-shortcodes.php` file.
-- I can include full product page on my custom page with a shortcode `[product_page id="1"]`.
-- If WP/Woo privdes me with a hook `do_action()` it means that I can run a custom function then/there.
+This library is an ongoing project, reflecting Jacek's journey through the complexities and nuances of WooCommerce. As the owner of [jkp.agency](https://jkp.agency), Jacek shares his expertise and learnings in a structured, accessible manner, ensuring that this repository remains a relevant and valuable resource for the community.
 
-```php
-do_action( 'hook_name', 'function_name', 10, 1 );
-```
-- The code above goes into the `functions.php` flile of the *child theme*.
-- It has the same name as per `do_action()`.
-- **Priority** = `10` by default, if omitted.
-- **Aarguments** = `1` by default, if omitted.
-```php
-function function_name() { }
-```
-- Hooked function (name as per `add_action()`).
-- **`$arguments`** as per `do_action()`.
+## WooCommerce Customization Notes
 
-- Wordpress **Filter Hooks** allow me to *edit / filter* content just before it is given back to WordPress.
-- If WP/Woo provides me with a `apply_filters( 'hook_name' )` I can edit that content before it is processed.
+### Best Practices
+- Avoid direct editing of WooCommerce Pages to preserve Woo shortcodes. Utilize hooks for modifications.
+- Utilize `do_action()` for custom functions without overriding WooCommerce templates.
+- Refer to `includes/class-wc-shortcodes.php` for a comprehensive list of available shortcodes.
 
-* ... add more content here ...
-* Add content child theme related from my screenshots.
-* check and validate child theme styles with a different name/folder
+### Code Implementation
+- Incorporate custom functions into the `functions.php` file of your child theme.
+- Use the `do_action()` hook for specifying where to run custom functions.
+- By default, `priority` is set to `10` and `arguments` to `1`.
 
-* CSS
-* cascading - explain which one will win and why
-* explain css syntax for novice users
-* add inspecting explaination
-* CSS hierarchy, add precision in location (why one should never use 1 & 2)
-* explain woocommerce CSS structure 
-* [WooCommerce CSS Structure](https://developer.woo.com/docs/classic-theme-development-handbook/#3-css-structure)
+### Hooks and Filters
+- WordPress Filter Hooks enable content editing before processing by WordPress.
+- Use `apply_filters( 'hook_name' )` to modify content prior to processing.
+
+### Ongoing Updates
+- Additional content on child theme customization and CSS best practices will be included regularly.
 
 ### Examples
+Providing practical code examples, such as custom actions in product saving or cart customization.
 
-```php
-do_action( 'save_post_product', 'my_custom_function' );
+## Comprehensive Resources
 
-function my_custom_function() {
-  // do something when a product (post) is saved
-}
-```
-```php
-do_action( 'woocommerce_before_cart', 'my_above_cart_banner_function' );
+### Key Resources
+- Official sources for WooCommerce, WordPress development, child themes, hooks, and more.
+- Visual guides for WooCommerce hooks in various contexts like emails, account pages, and product pages.
 
-function my_above_cart_banner_function() {
-  // do something before the Cart table
-}
-```
+### Additional Learning
+- Planned exploration of advanced topics such as custom fields in products.
+- Recommendations for useful plugins like WooCommerce HookMeUp and WP Hooks Finder.
 
-## Resources
+## Contributing
+This repository welcomes contributions from the WooCommerce community. Share your insights or suggest improvements through pull requests or issues.
 
-### Useful resources:
-* [WooCommerce source](https://github.com/woocommerce/woocommerce/tree/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce)
-* [WordPress Developer Resources](https://developer.wordpress.org/reference/)
-* [WooCommerce developer resources](https://developer.woo.com/docs/woocommerce-developer-resources/)
-* [Child Themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
-* [WooCommerce CSS Structure](https://developer.woo.com/docs/classic-theme-development-handbook/#3-css-structure)
-* [How to set up and use a child theme](https://developer.woo.com/docs/how-to-set-up-and-use-a-child-theme/)
-* [WordPress Hooks](https://developer.wordpress.org/plugins/hooks/)
-  *  [Actions](https://developer.wordpress.org/plugins/hooks/actions/)
-  *  [Filters](https://developer.wordpress.org/plugins/hooks/filters/)
-* [WooCommerce Hooks: Actions and filters](https://woo.com/document/introduction-to-hooks-actions-and-filters/)
-* [Woo Extensibility on the Server Side (Hooks)](https://developer.woo.com/2023/09/22/getting-to-know-woo-exploring-server-side-extensibility-with-hooks/)
-* [WooCommerce Pages](https://woo.com/document/woocommerce-pages/)
-* [WooCommerce Shortcodes](https://woo.com/document/woocommerce-shortcodes/)
-* [Full list of Woo shortcodes](https://github.com/woocommerce/woocommerce/blob/7bfef28ac5d614837e696852ab4ffb8d7686a847/plugins/woocommerce/includes/class-wc-shortcodes.php#L3)
-
-### [Woo Visual Hook Guides](https://www.businessbloomer.com/category/woocommerce-tips/visual-hook-series/)
-
-- [Emails (with default WooCommerce add_actions)](https://www.businessbloomer.com/woocommerce-visual-hook-guide-emails/)
-- [My Account Pages](https://www.businessbloomer.com/woocommerce-visual-hook-guide-account-pages/)
-- [Checkout Page (with default WooCommerce add_actions)](https://www.businessbloomer.com/woocommerce-visual-hook-guide-checkout-page/)
-- [Archive / Shop / Cat Pages (with default add_actions)](https://www.businessbloomer.com/woocommerce-visual-hook-guide-archiveshopcat-page/)
-- [Single Product Page](https://www.businessbloomer.com/woocommerce-visual-hook-guide-single-product-page/)
-- [Cart Page](https://www.businessbloomer.com/woocommerce-visual-hook-guide-cart-page/)
-
-### Other resources:
-- [WordPress Developer Blog](https://developer.wordpress.org/news/)
-
-### Explore later
-- [How to add a custom field to simple and variable products](https://developer.woo.com/docs/how-to-add-a-custom-field-to-simple-and-variable-products/#5-how-to-handle-variable-products-)
-
-### Useful plugins
-- [WooCommerce HookMeUp](https://wordpress.org/plugins/hookmeup/)
-- [WP Hooks Finder](https://wordpress.org/plugins/wp-hooks-finder/)
-- [Customizer Export/Import](https://wordpress.org/plugins/customizer-export-import/)
+## About Jacek Poleszak
+Jacek Poleszak, the curator of this library, is a seasoned eCommerce consultant and the founder of [JKP.Agency](https://jkp.agency). His passion for sharing knowledge and helping others succeed in the eCommerce space drives this project.
