@@ -1,6 +1,4 @@
 # `Woo`Commerce Resources Library
-by *Jacek Poleszak*
----
 
 ## Notes
 
